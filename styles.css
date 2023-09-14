@@ -1,0 +1,119 @@
+body {
+    background-image: url('background.gif');
+    background-size: absolute;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 2000px;
+    left: -50px;
+    
+}
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+#navbar {
+position: absolute;
+top: 0;
+right: 0;
+background: linear-gradient(to right, #ff00cc, #333399);}
+
+#navbar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+#navbar li {
+display: inline-block;
+padding: 10px;
+margin: 10px
+}
+#navbar a {
+color: white;
+text-decoration: none;
+}
+#navbar a:hover {
+    color: pink;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+}
+
+.image {
+    width: 200px; 
+    height: 120px; 
+    margin-right: 20px; 
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.2); 
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover img {
+    transform: translate(0, 0); 
+}
+.image:nth-child(1) {
+    top: 800px; 
+    left: -130px;
+    position: absolute;
+}
+
+.image:nth-child(2) {
+    top: 800px;
+    left: -345px; 
+    position: absolute;
+}
+.image:nth-child(3) {
+    top: 930px; 
+    left: -130px;
+    position: absolute;
+}
+
+.image:nth-child(4) {
+    top: 930px;
+    left: -345px; 
+    position: absolute;
+}
+.custom-heading {
+    font-family:"Visitor_Rus";
+    font-size: 36px; 
+    color: black;  
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    transform: translate(50px,0);
+}
+h2{
+    color: black;
+    font-family:"Visitor_Rus";
+    transform: translate(-220px,720px);
+    font-size: 24px;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
